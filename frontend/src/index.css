@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.main-section {
+  margin-left: 240px;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding: 30px;
+}
+
+.main-content h1 {
+  margin: 0 0 8px;
+  font-size: 28px;
+  color: #111827;
+}
+
+.main-content p {
+  margin: 0;
+  color: #6b7280;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
